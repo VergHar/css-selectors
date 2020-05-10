@@ -1,0 +1,19 @@
+p {
+    color: green;
+}
+p::first-line {
+    color: indianred;
+}
+p::first-letter{
+    color: indigo;
+    font-size: 30px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+p::selection{
+    background-color: indigo;
+}
+input::placeholder{
+    color: rgb(252, 0, 21);
+}
