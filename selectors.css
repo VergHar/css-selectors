@@ -1,0 +1,41 @@
+* {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 400;
+    height: 400;
+    background-color: cyan;
+}
+p{
+color: blueviolet;
+}
+.class-selector{
+    color: chartreuse;
+}
+input[type="text"] {
+    background-color: darkblue;
+}
+input[type=password] {
+    background-color: darkgreen;
+}
+input[type=email] {
+    background-color: rgb(185, 14, 14);
+}
+p,span{
+    color: darkred;
+}
+div.parent{
+    width: 500px;
+    height: 500px;
+    background-color: darkred;
+}
+div.parent div{
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+}
+.big-div > span {
+    color: goldenrod;
+}
