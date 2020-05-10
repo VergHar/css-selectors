@@ -1,0 +1,15 @@
+.my-div {
+ width: 500px;
+ height: 500px;
+ background-color: darkblue;
+}
+.my-div:hover {
+    background-color: darkred;
+    width: 100px; ;
+}
+.input:focus{
+    background-color: deepskyblue;
+}
+.chekbox-input:checked{
+    background-color: firebrick;
+}
